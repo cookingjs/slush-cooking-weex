@@ -27,10 +27,9 @@
     "ios-deploy": "^1.9.0"
   },
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack --watch & serve -p 12580",
-    "serve": "serve -p 12580",
-    "eslint": "eslint src/index.we"
+    "build": "webpack --config webpack.conf.js",
+    "dev": "webpack --config webpack.conf.js && serve -p 12580",
+    "serve": "serve -p 12580"
   },<% if (github) { %>
   "repository": {
     "type": "git",
