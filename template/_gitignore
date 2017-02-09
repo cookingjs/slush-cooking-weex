@@ -1,23 +1,8 @@
-# Created by IDE
-.idea/
-*.iml
-.DS_Store
-
-# Created by Builder
-examples/build
-test/build
-weex_tmp
-coverage
-dist
-
-# Node
-logs
 *.log
-npm-debug.log*
+.cache
+.DS_Store
+.idea
+dist
 node_modules
-.npm
-
-# Runtime data
-pids
-*.pid
-*.seed
+.gitkeep
+converage

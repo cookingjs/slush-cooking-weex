@@ -4,7 +4,6 @@
   "description": "A weex project template for cooking",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -13,7 +12,7 @@
   "keywords": [
     "weex"
   ],
-  "author": "long.zhang@ele.me",
+  "author": ["long.zhang@ele.me", "cinwell.li@gmail.com"],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cookingjs/slush-cooking-weex/issues"

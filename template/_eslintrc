@@ -1,0 +1,7 @@
+{
+  "plugins": ["vue"],
+  "extends": ["weex", "elemefe"],
+  "globals": {
+    "Vue": true
+  }
+}
