@@ -20,6 +20,7 @@ var weex = base({
   entry: { weex: './src/entry.js' },
   template: false,
   devServer: false,
+  hash: false,
   externals: {
     'vue': 'Vue',
     'weex-vue-render': 'weexVueRenderer'

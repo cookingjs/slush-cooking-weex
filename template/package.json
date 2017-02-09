@@ -6,6 +6,8 @@
     "dev": "cooking watch -p",
     "dist": "cooking build -p",
     "qrcode": "node build/qrcode.js",
+    "copy:ios": "cpy dist/weex.js platforms/ios/assets --rename=index.js",
+    "copy:android": "cpy dist/weex.js android/app/src/main/assets --rename=index.js",
     "debug": "weex-devtool"
   },<% if (github) { %>
   "repository": {
@@ -27,6 +29,7 @@
     "weex-vue-render": "^0.1.8"
   },
   "devDependencies": {
+    "cpy-cli": "*",
     "cooking-vue2": "*",
     "eslint-config-weex": "^0.1.5",
     "ip": "^1.1.4",
